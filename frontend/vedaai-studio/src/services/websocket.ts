@@ -8,7 +8,7 @@ class WebSocketService {
   connect() {
     if (this.socket) return this.socket;
 
-    const wsUrl = import.meta.env.VITE_WS_URL || 'http://localhost:5000';
+    const wsUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
     
     this.socket = io(wsUrl, {
       autoConnect: false,
