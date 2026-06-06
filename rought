@@ -1,0 +1,5 @@
+user = gargdevansh728_db_user
+pass = 898oQeiB7wV3LDF3
+
+npm warn deprecated multer@1.4.5-lts.2: Multer 1.x is impacted by a number of vulnerabilities, which have been patched in 2.x. You should upgrade to the latest 2.x version.
+npm warn deprecated puppeteer@22.15.0: < 24.15.0 is no longer supported
